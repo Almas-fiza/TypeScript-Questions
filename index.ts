@@ -1,17 +1,5 @@
-//You should create four lines that look like this:
+//Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
 
-//console.log(5 + 3)
-
-//Your output should simply be four lines with the number 8 appearing once on each line.
-
-console.log("--".repeat(50))
-console.log(5 + 3)
-console.log("--".repeat(50))
-console.log(16 - 8)
-console.log("__".repeat(50))
-console.log(4 * 2)
-console.log("--".repeat(50))
-console.log(16 / 2)
-
-
-
+let favoriteNumber:number = 16
+let message: string= `My favorite number is  ${favoriteNumber} `;
+console.log(message)
