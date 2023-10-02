@@ -1,7 +1,8 @@
-//Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
+//personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
 
-let Name: string = "\t  Almas Fiza \n";
-console.log("Name with whitespace:", Name)
 
-let strippedName : string = Name.trim()
-console.log("stripped name:", strippedName)
+
+
+let personName: string = "Harram";
+let message: string = (`Hello ${personName}, Hope uh are doing well! lets plan meetup?`);
+console.log(message)
